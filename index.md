@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/dabi2002/google-clone.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dabi2002/google-clone.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" itemprop="image" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-right-section">
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Imágenes</a></li>
+                <li><a href=""><img src="data:image/png;base64,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" alt=""></a></li>
+                <li><a href=""><img src="https://play-lh.googleusercontent.com/-baDueF5dSPo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmLFNHj8qV72-1HQpAU_BS6HLcJyw/photo.jpg" alt="profile photo" class="profile"></a></li>
+              
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-logo">
+            <figure>
+                <img src="./580b57fcd9996e24bc43c51f.png" alt="Google-Logo">
+            </figure>
+        </section>
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-icon">
+                    <figure>
+                        <img src="https://cdn4.iconfinder.com/data/icons/commenly-needed/400/Icon-12-512.png" alt="">
+                    </figure>
+                </span>
+                <input type="text">
+                <a href=""> <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png" alt=""></a>
+            </div>
+        </section>
+        <section class="main-button">
+            <div><button>Buscar con Google</button></div>
+            <div><button>Voy a tener suerte</button></div>
+        </section>
+        <section class="aviso-ofrecido">
+            <span>Ofrecido por Google en: <a href="">English</a></span>
+        </section>
+        
+    </main>
+    <footer>
+        <span class="footer-pais">Venezuela</span>  
+        <ul class="footer-left">
+            <li><a href="">Sobre Google</a></li>
+            <li><a href="">Publicidad</a></li>
+            <li><a href="">Negocios</a></li>
+            <li><a href="">Cómo funciona la Búsqueda</a></li>
+        </ul>
+        <ul class="footer-right">
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Condiciones</a></li>
+            <li><a href="">Preferencias</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
